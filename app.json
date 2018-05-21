@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+   "pages/login/login",
+    "message/message/message",
+    
+   
+    "pages/logs/logs",
+    
+    "schedule/schedule/schedule",
+    "circle/circle/circle"
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Timing",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "message/message/message",
+        "text": "消息",
+        "iconPath": "images/head.png",
+        "selectedIconPath": "images/head.png"
+      },
+      {
+        "pagePath": "schedule/schedule/schedule",
+        "text": "学习日程",
+        "iconPath": "images/set.png",
+        "selectedIconPath": "images/set.png"
+      },
+      {
+        "pagePath": "circle/circle/circle",
+        "text": "学习圈",
+        "iconPath": "images/help.png",
+        "selectedIconPath": "images/help.png"
+      }
+    ]
+  }
+}
