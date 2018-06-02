@@ -42,6 +42,7 @@ App({
   * 获取用户信息
   */
   getUserInfo: function (cb) {
+    console.log("zheli1")
     var that = this
 
     if (this.globalData.userInfo) {
@@ -113,6 +114,6 @@ App({
   */
   globalData: {
     userInfo: null,
-    url: '这是接口的url'
+    url: '101.132.142.78',
   }
 })

@@ -5,61 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
+    src: "../../images/reminder.png",
     winHeight: "",//窗口高度
     currentTab: 0, //预设当前项的值
     scrollLeft: 0, //tab标题的滚动条位置
     expertList: [ //假数据
-      [
-        {
-          img: "avatar.png",
-          name: "A",
-          tag: "知名情感博主",
-          answer: 134,
-          listen: 2234
-        },
-        {
-          img: "avatar.png",
-          name: "B",
-          tag: "知名情感博主",
-          answer: 134,
-          listen: 2234
-        },
-        {
-          img: "avatar.png",
-          name: "C",
-          tag: "知名情感博主",
-          answer: 134,
-          listen: 2234
-        },
-        {
-          img: "avatar.png",
-          name: "D",
-          tag: "知名情感博主",
-          answer: 134,
-          listen: 2234
-        },
-        {
-          img: "avatar.png",
-          name: "E",
-          tag: "知名情感博主",
-          answer: 134,
-          listen: 2234
-        },
-        {
-          img: "avatar.png",
-          name: "F",
-          tag: "知名情感博主",
-          answer: 134,
-          listen: 2234
-        },
-        {
-          img: "avatar.png",
-          name: "G",
-          tag: "知名情感博主",
-          answer: 134,
-          listen: 2234
-        }
-      ]
+      [{ name: "A", },
+      { name: "F" }],
+      [{ name: "A", },
+      { name: "F" }],
+      [{ name: "A", },
+      { name: "F" }],
+      [{ name: "A", },
+      { name: "F" }],
+      [{ name: "A", },
+      { name: "F" }]
     ]
   },
   // 滚动切换标签样式
@@ -70,6 +30,7 @@ Page({
     });
     this.checkCor();
   },
+
   // 点击标题切换当前页时改变样式
   swichNav: function (e) {
     console.log("hhhhhhhha")

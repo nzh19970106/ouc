@@ -41,9 +41,22 @@
 
 
 <view class="weui-search-bar__form">
-  <input type='text'></input>
   <view class='father'>
-    <text>我购买的学习服务</text>
+    <text>我的学习</text>
   </view>
-  <input type='text'></input>
+
+</view>
+
+<view>
+  <view style="display:flex;">
+    <view class="text1" style="flex:1;">{{time1}}</view>
+    <view class="x" style="flex:1;">{{time}}</view>
+  </view>
+  <view class="text2">今天</view>
+
+  
+  <view class="text3">昨天</view>
+  
+  <view class="text5">前天</view>
+
 </view>

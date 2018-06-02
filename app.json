@@ -8,7 +8,8 @@
     "pages/logs/logs",
     
     "schedule/schedule/schedule",
-    "circle/circle/circle"
+    "circle/circle/circle",
+    "info/info/info"
   
   ],
   "window":{
@@ -23,20 +24,20 @@
       {
         "pagePath": "message/message/message",
         "text": "消息",
-        "iconPath": "images/head.png",
-        "selectedIconPath": "images/head.png"
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/message2.png"
       },
       {
         "pagePath": "schedule/schedule/schedule",
         "text": "学习日程",
-        "iconPath": "images/set.png",
-        "selectedIconPath": "images/set.png"
+        "iconPath": "images/study_line.png",
+        "selectedIconPath": "images/study_line2.png"
       },
       {
         "pagePath": "circle/circle/circle",
         "text": "学习圈",
-        "iconPath": "images/help.png",
-        "selectedIconPath": "images/help.png"
+        "iconPath": "images/circle.png",
+        "selectedIconPath": "images/circle2.png"
       }
     ]
   }

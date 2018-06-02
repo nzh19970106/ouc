@@ -106,3 +106,21 @@ display: flex;
 justify-content: center;
 text-align: center;
 }
+
+.text1 {
+  color: #000;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  line-height: 100rpx;
+  font-size: 50rpx;
+}
+.text3{
+  line-height: 1000rpx;
+}
+.text5{
+  line-height: 800rpx;
+}
+.x{
+  line-height: 100rpx;
+  margin-right: 150rpx;
+}

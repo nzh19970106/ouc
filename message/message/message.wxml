@@ -1,7 +1,9 @@
 <!--message/message/message.wxml-->
 <import src="../../wxSearch/wxSearch.wxml" />
 <view style='display:flex;'>
+    <navigator url="../../info/info/info" open-type="navigate">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </navigator>
   <view class="weui-search-bar" style='display:flex;'>
     <view class="weui-search-bar__form">
       <view class="weui-search-bar__box">
