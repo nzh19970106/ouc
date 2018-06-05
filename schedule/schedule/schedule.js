@@ -1,6 +1,7 @@
 // schedule/schedule/schedule.js
 const util = require('../../utils/util.js')
 var time1,time2,time3
+var today,yesterday,before
 Page({
 
   /**
@@ -26,8 +27,8 @@ Page({
     this.setData({
       time:time,
       time1: this.data.days[date.getDay()].day,
-      time2: this.data.days[(date.getDay()-1)%7].day,
-      time3: this.data.days[(date.getDay()-2)%7].day
+      //time2: this.data.days[(date.getDay()-1)%7].day,
+      //time3: this.data.days[(date.getDay()-2)%7].day,
     })
     
   },
@@ -43,6 +44,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    this.setData({
+      today:"今天还没有记录",
+      yesterday:"昨天还没有记录",
+      before:"前天还没有记录",
+    })
 
   },
 
@@ -80,6 +86,11 @@ Page({
   onShareAppMessage: function () {
 
   },
-
+  goToPlan:function()
+  {
+    wx.redirectTo({
+      url: '../plan/plan',
+    })
+  }
 
 })

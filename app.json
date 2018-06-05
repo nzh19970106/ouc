@@ -6,8 +6,9 @@
     
    
     "pages/logs/logs",
-    
+    "schedule/plan/plan",
     "schedule/schedule/schedule",
+    
     "circle/circle/circle",
     "info/info/info"
   

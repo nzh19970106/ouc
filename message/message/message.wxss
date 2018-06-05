@@ -56,3 +56,11 @@
   padding: 7px 8px;
   font-size: 0;
 }
+.image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.t1{
+  border-bottom: 1rpx solid #d7d6dc;
+}

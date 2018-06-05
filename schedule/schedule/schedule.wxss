@@ -115,12 +115,16 @@ text-align: center;
   font-size: 50rpx;
 }
 .text3{
-  line-height: 1000rpx;
+  line-height: 400rpx;
 }
 .text5{
-  line-height: 800rpx;
+  line-height: 300rpx;
 }
 .x{
   line-height: 100rpx;
   margin-right: 150rpx;
+}
+.content1{
+  line-height: 100rpx;
+  text-align: center;
 }

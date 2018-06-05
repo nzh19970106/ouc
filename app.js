@@ -1,6 +1,7 @@
 //app.js
 // 这里是调用公共函数库
 var util = require('utils/util.js')
+var API_URL ="101.132.142.78"
 App({
 
   /**
@@ -46,10 +47,12 @@ App({
     var that = this
 
     if (this.globalData.userInfo) {
+     
 
       typeof cb == "function" && cb(this.globalData.userInfo)
 
     } else {
+      console.log("123")
 
       // 调用登录接口
       wx.login({
@@ -73,7 +76,7 @@ App({
               var data = { encryptedData: res2.encryptedData, iv: res2.iv, code: code }
 
               // 请求自己的服务器(在这里我结合promise封装了一下request请求，下面会把方法给大家分享一下)
-              util.commonAjax('方法名', 1, data)
+              util.commonAjax("", 1, data)
                 .then(function (resolve) {
                   // 这里自然不用解释了，这是接口返回的参数
                   if (resolve.data.status === '200') {

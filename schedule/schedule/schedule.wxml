@@ -20,7 +20,7 @@
     </view>
   </view>
   <view class="item_middle" class="top_image" bindtap="isShowToast">
-    <image src="../../images/upBed.png" class="image" />
+    <image src="../../images/upBed.png" class="image" bindtap="goToPlan"></image>
     <view>
       <text class="text">学习计划</text>
     </view>
@@ -53,10 +53,12 @@
     <view class="x" style="flex:1;">{{time}}</view>
   </view>
   <view class="text2">今天</view>
-
+  <view class="content1">{{today}}</view>
+    
   
   <view class="text3">昨天</view>
-  
+   <view class="content1">{{yesterday}}</view>
   <view class="text5">前天</view>
-
+   <view class="content1">{{before}}</view>
+   <view>    </view>
 </view>

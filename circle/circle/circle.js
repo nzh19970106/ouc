@@ -10,16 +10,16 @@ Page({
     currentTab: 0, //预设当前项的值
     scrollLeft: 0, //tab标题的滚动条位置
     expertList: [ //假数据
-      [{ name: "A", },
-      { name: "F" }],
-      [{ name: "A", },
-      { name: "F" }],
-      [{ name: "A", },
-      { name: "F" }],
-      [{ name: "A", },
-      { name: "F" }],
-      [{ name: "A", },
-      { name: "F" }]
+      [{ name: "A",src:" " },
+      { name: "B" ,src:" "}],
+      [{ name: "C",src:" " },
+      { name: "D" ,src:" "}],
+      [{ name: "E",src:" " },
+      { name: "F",src:" "}],
+      [{ name: "G",src:" " },
+      { name: "H" ,src:" "}],
+      [{ name: "I",src:" " },
+      { name: "G" ,src:" "}]
     ]
   },
   // 滚动切换标签样式
